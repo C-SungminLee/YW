@@ -1,6 +1,5 @@
 # Discord Bot
 
-from tkinter import Y
 from functions import output
 from functions import buildinglist
 from functions import tilecoordytt
@@ -179,7 +178,7 @@ async def on_message(message):
         await message.channel.send("_"+x + y)
 '''
 
-client.run('OTI3Njg2MzQ4NTc4NjIzNTY5.YdN1PQ.GAX1Ofart8n6x6MViNJh9XUSAs4')
+client.run('')
 
 '''
     elif message.content.startswith('$startgame') or ('$sg') and str(message.author) == ('Sungmin#6222') and game == False:
